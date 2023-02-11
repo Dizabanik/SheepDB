@@ -72,17 +72,17 @@ You can use " characters in values to denote values that won't be tokenized, suc
 
 
 ```c
-link = "https://example.com"
+link: "https://example.com"
 ```
 
 ### Using arrays in the database
 You can use arrays in Sheep DB to store multiple values under a single key. Arrays can either be simple lists of values or lists of key-value pairs. Here's an example of a simple array:
 
 ```c
-array = [1, 2, 3]
+array: [1, 2, 3]
 ```
 And here's an example of an array with key-value pairs:
 
 ```c
-array = [version: 0.0.1, link: "https://example.com"]
+array: [version: 0.0.1, link: "https://example.com"]
 ```
