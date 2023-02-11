@@ -8,6 +8,11 @@ Sheep DB is a fast database written in C language. It provides an easy-to-use AP
 - Easy to use: The API is designed to be simple and intuitive, making it easy to get started with Sheep DB.
 
 ## Getting Started
+Before you begin, you will need to download `sheepdb.h` and include it in your file using the following line:
+```c
+#include "sheepdb.h"
+```
+
 This section provides a tutorial on how to use Sheep DB in your own projects.
 
 ### Creating a database object
